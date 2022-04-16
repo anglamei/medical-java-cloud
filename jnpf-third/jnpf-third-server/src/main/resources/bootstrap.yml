@@ -9,9 +9,9 @@ spring:
     nacos:
       discovery:
         # 服务注册地址
-        server-addr: 127.0.0.1:30099
+        server-addr: 127.0.0.1:8848
       config:
-        server-addr: 127.0.0.1:30099
+        server-addr: 127.0.0.1:8848
         file-extension: yaml
         group: DEFAULT_GROUP
         namespace: 69c4eecb-05bd-4041-81fe-1473f95f578c
@@ -50,7 +50,7 @@ seata:
     type: nacos
     nacos:
       namespace:
-      serverAddr: 127.0.0.1:30099
+      serverAddr: 127.0.0.1:8848
       group: SEATA_GROUP
       userName: "nacos"
       password: "nacos"
@@ -58,7 +58,7 @@ seata:
     type: nacos
     nacos:
       application: seata-server
-      serverAddr: 127.0.0.1:30099
+      serverAddr: 127.0.0.1:8848
       group: "SEATA_GROUP"
       namespace:
       userName: "nacos"
