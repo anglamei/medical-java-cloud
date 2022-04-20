@@ -23,6 +23,8 @@
         <module>jnpf-third</module>
         <module>jnpf-file</module>
         <module>jnpf-tenant</module>
+
+        <module>yt-healthcare-hospital-res</module>
     </modules>
 
     <properties>
